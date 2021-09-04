@@ -2,6 +2,11 @@
 
 namespace SRP
 {
+
+    /*
+     La clase Libro no cumple con el principio SRP porque tiene mas de una funcionalidad,
+     En este caso tiene la responsabilidad sobre el Libro y Almacenar el libro
+     */
     public class Libro
     {
 
