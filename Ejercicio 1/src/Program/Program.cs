@@ -13,8 +13,8 @@ namespace SRP
             AlmacenarLibro almacenolibro1 = new AlmacenarLibro("A", "7", libro1);
             AlmacenarLibro almacenolibro2 = new AlmacenarLibro("B", "3", libro2);
             //Almacenamiento.AlmacenarLibro("A", "7", libro1);
-            
-
+            almacenolibro1.Imprimir();
+            almacenolibro2.Imprimir();
         }
     }
 }
