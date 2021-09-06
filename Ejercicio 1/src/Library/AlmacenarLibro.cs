@@ -11,11 +11,13 @@ namespace SRP
 
         public string SectorBiblioteca { get ; set; }
         public string EstanteBiblioteca { get ; set; }
-
-        public void AlmacenarLibro(String sector, String estante)
+        
+        public Libro Item {get; set;}
+        public AlmacenarLibro(String sector, String estante, Libro libro)
         {
             this.SectorBiblioteca = sector;
             this.EstanteBiblioteca = estante;
+            this.Item = libro; 
         }
 
     }
