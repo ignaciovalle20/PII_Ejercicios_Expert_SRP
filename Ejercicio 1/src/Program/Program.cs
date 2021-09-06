@@ -9,8 +9,11 @@ namespace SRP
         {
             Libro libro1 = new Libro("Design Patterns","Erich Gamma & Others","001-034");
             Libro libro2 = new Libro("Pro C#","Troelsen","001-035");
-            libro1.AlmacenarLibro("A","7");
-            libro2.AlmacenarLibro("B","3");
+            //v2 con constructores funciona
+            AlmacenarLibro almacenolibro1 = new AlmacenarLibro("A", "7", libro1);
+            AlmacenarLibro almacenolibro2 = new AlmacenarLibro("B", "3", libro2);
+            //Almacenamiento.AlmacenarLibro("A", "7", libro1);
+            
 
         }
     }
